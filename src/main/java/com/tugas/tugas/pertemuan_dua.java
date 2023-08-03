@@ -2,109 +2,66 @@ package com.tugas.tugas;
 
 public class pertemuan_dua {
     public static void main(String[] args) {
+        // Program Hello World
+        System.out.println("Hello World");
 
-        // variable
-        System.out.println("Variable");
-        String name;
-        name = "Farhan Taufiqul Ihsan";
+        // Tipe Data Number
+        byte iniByte = 100;
+        short iniShort = 1000;
+        int iniInt = 1000000;
+        long iniLong = 1000000l;
+        long iniLong2 = 1000000l;
+        byte iniByte2 = 12;
+        short iniShort_Konversi = iniByte;
+        short iniShort2 = 32_767;
+        int iniInt2 = 2_147_483_647;
+        long iniLong3 = 923_337_203l;
 
-        // kata kunci var
-        int age = 30;
-        String address = "Indonesia";
+        // Floating Point number
+        float iniFloat = 10.12F;
+        long iniLong4 = (long) iniFloat;
 
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(address);
+        // Konsep Tipe Data Number
+        double iniDouble = 12.2424;
 
-        // kata kunci final
+        int decimalInt = 25;
+        int hexInt = 0xABCDEF;
+        int binInt = 0b1010101010101;
+
+        // Tipe Data Character
         System.out.println("\n");
-        System.out.println("Final");
-        final String name1 = "Farhan Taufiqul Ihsan";
-        int age1 = 30;
-        String address1 = "Indonesia";
+        System.out.println("Tipe data char");
+        char k = 'K';
+        char e = 'E';
+        char o = 'O';
 
-        // name1 = "diubah"; karena final
-        System.out.println(name1);
-        System.out.println(age1);
-        System.out.println(address1);
+        System.out.println("Tipe data di java");
+        System.out.print(e);
+        System.out.print(k);
+        System.out.println(o);
 
-        // Tipe data bukan primitif
+        System.out.println(e);
+        System.out.println(k);
+        System.out.println(o);
+
+        // Tipe Data Boolean
         System.out.println("\n");
-        System.out.println("Array");
-        String[] arrayString;
-        arrayString = new String[3];
+        System.out.println("Boolean");
+        boolean benar = true;
+        boolean salah = false;
 
-        // Tipe data array
-        arrayString[0] = "Farhan";
-        arrayString[0] = "Taufiqul";
-        arrayString[0] = "Ihsan";
+        System.out.println(benar);
+        System.out.println(salah);
 
-        int[] arrayInt = new int[] {
-                10, 90, 80, 67, 29
-        };
-
-        long[] arraylong = {
-                10, 90, 80, 67, 29
-        };
-
-        arraylong[0] = 100;
-
-        // Operasi di array
-        System.out.println(arraylong[0]);
-        System.out.println(arraylong[1]);
-        System.out.println(arraylong.length);
-
-        String[][] members = {
-                { "Farhan", "Taufiqul", "Ihsan" },
-                { "Joko", "Purwanto" },
-                { "Iwan", "Abdul" }
-        };
-
-        String[] member1 = members[0];
-        System.out.println(member1[0]);
-
-        System.out.println(members[1][0]);
-        System.out.println(members[2][0]);
-
-        // Operasi Matematika
+        // Tipe Data String
         System.out.println("\n");
-        System.out.println("Operasi Matematika");
-        int a = 100;
-        int b = 10;
+        System.out.println("Tipe data String");
+        String firstname = "Farhan Taufiqul";
+        String lastname = "Ihsan";
+        String fullname = firstname + " " + lastname;
 
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a * b);
-        System.out.println(a / b);
-        System.out.println(a % b);
-
-        // Augmented Assignments
-        System.out.println("\n");
-        System.out.println("Augmented Assignment");
-        int c = 100;
-
-        c += 10;
-        System.out.println(c);
-
-        c -= 10;
-        System.out.println(c);
-
-        c *= 10;
-        System.out.println(c);
-
-        // Unary Operator
-        System.out.println("\n");
-        System.out.println("Unary Operator");
-        int d = +100;
-        int e = -10;
-
-        d++;
-        System.out.println(d);
-
-        d--;
-        System.out.println(d);
-
-        System.out.println(!true);
-
+        System.out.println(firstname);
+        System.out.println(lastname);
+        System.out.println(fullname);
     }
 }
