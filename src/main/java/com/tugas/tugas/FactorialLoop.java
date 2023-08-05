@@ -10,4 +10,10 @@ public class FactorialLoop {
         return result;
     }
 
+    public static void main(String[] args) {
+        int number = 5;
+        int result1 = factorial(number);
+        System.out.println("Faktorial (loop) dari " + number + " adalah " + result1);
+    }
+
 }
