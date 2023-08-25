@@ -29,6 +29,21 @@ public class pertemuan_tiga {
                 System.out.println(address1);
 
                 // Tipe data bukan primitif
+                Integer iniInteger = 10;
+                Long iniLong = 10L;
+                boolean myBoolean = true;
+
+                short iniShort;// null
+                iniShort = 100;
+
+                // konversi dari data primitf
+                int umur = 30;
+                Integer umurobject = umur;
+                int umurAgain = umurobject;
+
+                short shortUmur = umurobject.shortValue();
+                byte byteObject = umurobject.byteValue();
+
                 System.out.println("\n");
                 System.out.println("Array");
                 String[] arrayString;
@@ -36,8 +51,8 @@ public class pertemuan_tiga {
 
                 // Tipe data array
                 arrayString[0] = "Farhan";
-                arrayString[0] = "Taufiqul";
-                arrayString[0] = "Ihsan";
+                arrayString[1] = "Taufiqul";
+                arrayString[2] = "Ihsan";
 
                 int[] arrayInt = new int[] {
                                 10, 90, 80, 67, 29
