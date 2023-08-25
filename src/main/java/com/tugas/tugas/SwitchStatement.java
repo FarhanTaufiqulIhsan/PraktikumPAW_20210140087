@@ -2,7 +2,7 @@ package com.tugas.tugas;
 
 public class SwitchStatement {
     public static void main(String[] args) {
-        var nilai = "B";
+        var nilai = "E";
         switch (nilai) {
             case "A":
                 System.out.println("Wow Anda lulus dengan baik");

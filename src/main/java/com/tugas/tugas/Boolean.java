@@ -2,7 +2,7 @@ package com.tugas.tugas;
 
 public class Boolean {
     public static void main(String[] args) {
-        var absen = 70;
+        var absen = 80;
         var nilaiAkhir = 80;
 
         var lulusanAbsen = absen >= 75;

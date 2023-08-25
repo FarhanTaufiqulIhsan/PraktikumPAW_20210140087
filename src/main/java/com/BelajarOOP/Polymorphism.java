@@ -19,10 +19,10 @@ public class Polymorphism {
     static void sayHello(Employee employee) {
         if (employee instanceof VicePresident_satu) {
             VicePresident_satu vicePresident1 = (VicePresident_satu) employee;
-            System.out.println("Hello " + vicePresident1.name);
+            System.out.println("Hello VP " + vicePresident1.name);
         } else if (employee instanceof Manager_satu) {
             Manager_satu manager1 = (Manager_satu) employee;
-            System.out.print("Hello Manager " + manager1.name);
+            System.out.println("Hello Manager " + manager1.name);
         } else {
             System.out.println("Hello " + employee.name);
         }
